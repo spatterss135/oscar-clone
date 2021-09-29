@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+img {
+    width: 100%;;
+}
+
+.black-bar {
+    display: flex;
+    background: rgb(28,28,28);
+    justify-content: right;
+    color: rgb(255,255,255);
+}
+
+.black-bar > * {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.black-bar button {
+    background: none;
+    border: none;
+    color: rgb(255,255,255);
+    font-weight: 300;
+}
+
+#top {
+    width: 100%;
+    
+
+}
+
+#nav-bar-and-oscar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(151,175,176);
+    background: rgb(28,85,87);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 5px
+
+}
+
+
+
+
+
+
+
+
+.form {
+position: relative;
+bottom: 50px;
+background: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 90%;
+text-align: center;
+margin: auto;
+border-radius: 3%;
+padding: 10px 10px;
+box-shadow: 2px 2px 2px lightgray;
+}
+
+.form > * {
+width: 90%;
+margin: auto;
+}
+
+.form input {
+border: none;
+border-bottom: 1px solid grey;
+}
+
+.form select {
+border: none;
+border-bottom: 1px solid grey;
+}
+
+.query {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: center;
+
+}
+
+label{
+    text-align: left;
+}
+
+
+.main {
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.little-line {
+    margin: auto;
+    width: 20%;
+    height: 3px;
+    background-color: rgb(249,67,86);
+    border: none;
+}
+
+.oscar-care-1 > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-links {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(79,80,255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main > *:not(hr) {
+    padding: 10px 0px;
+}
+
+.wrapper.wrapper {
+    padding-bottom: 20px;
+}
+
+.email-section {
+    background: rgb(250,244,234)
+}
+
+.email-section p {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.top-stuff {
+    text-align: center;
+}
+
+.top-stuff > *:not(hr) {
+    padding: 10px 0px;
+}
+
+
+.querylast {
+    margin: auto;
+    width: 80%;
+}
+
+
+.querylast input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;;
+    padding: 3px;
+    margin-top: 5px;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .black-bar {
+        padding-right: 45px;
+  }
+  .black-bar > * {
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    #nav-bar-and-oscar {
+        padding: 10px 50px;
+    }
+
+    .form {
+        width: 70%;
+        bottom: 100px
+    }
+    .oscar-care {
+        display: flex;
+        align-items: center;
+    }
+    .oscar-care  > *{
+        flex:1;
+    }
+
+    #prescriptions {
+        display: flex;
+        align-items: center;
+    }
+    .prescriptions-1 {
+        order: 1;
+    }
+    #doctors {
+        display: flex;
+        align-items: center;
+    }
+    .email-section > * {
+        margin:auto;
+        width:60%;
+    }
+}
